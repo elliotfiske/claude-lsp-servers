@@ -1,0 +1,18 @@
+{
+  "name": "claude-lsp-servers",
+  "description": "Working LSP language servers for Claude Code - TypeScript, Python, and Go",
+  "owner": {
+    "name": "yungweng",
+    "url": "https://github.com/yungweng",
+    "email": "y.wenger@gmx.de"
+  },
+  "plugins": [
+    {
+      "name": "lsp-servers",
+      "description": "Language servers for TypeScript, Python (Pyright), and Go (gopls)",
+      "version": "1.0.0",
+      "source": "./plugins/lsp-servers",
+      "tags": ["lsp", "typescript", "python", "go", "code-intelligence"]
+    }
+  ]
+}
