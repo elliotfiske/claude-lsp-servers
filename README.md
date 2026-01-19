@@ -1,6 +1,6 @@
 # claude-lsp-servers
 
-LSP plugin for [Claude Code](https://claude.ai/code) — TypeScript, Python, and Go code intelligence that actually works.
+LSP plugin for [Claude Code](https://claude.ai/code) — TypeScript, Python, Go, and Swift code intelligence that actually works.
 
 ## Prerequisites
 
@@ -21,6 +21,11 @@ npm install -g pyright
 
 # Go
 go install golang.org/x/tools/gopls@latest
+
+# Swift (macOS)
+brew install swift
+# Or install Xcode from the App Store
+# sourcekit-lsp is included with Swift toolchain
 ```
 
 ## Installation
